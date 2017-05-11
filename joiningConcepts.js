@@ -1,6 +1,4 @@
 var conceptList = ["gists", "types", "operators", "iteration", "problem solving"];
-var concepts = joinList(conceptList);
-
 
 function joinList(list) {
   var empty = "";
@@ -10,11 +8,11 @@ function joinList(list) {
       empty += list[i] + ", ";
     } else {
       empty += list[i];
-    } 
-	
-  } 
+    }
+  }
   return empty;
-} 
+}
+
+var concepts = joinList(conceptList);
 
 console.log("Today I learned about " + concepts + ".");
-
