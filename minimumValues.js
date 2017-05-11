@@ -1,13 +1,13 @@
 function min(numbers) {
-
   var smallestNumber = numbers[0];
     
   for (var i = 0; i < numbers.length; i++) {
     var currentNumber = numbers[i];
     if (smallestNumber > currentNumber) {
       smallestNumber = currentNumber;
-    }  
+    }
   }
+
   return smallestNumber;
 }
 
