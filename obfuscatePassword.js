@@ -1,12 +1,12 @@
 function obfuscate(password) {
-  var obfuscatedPassword = ""
+  var obfuscatedPassword = "";
 
   for (var i = 0; i < password.length; i++) {
     var character = password[i];
     if (character === "a" || character === "A") {
       obfuscatedPassword += "4";
     } else if (character === "e" || character === "E") {
-      obfuscatedPassword += "3"; 
+      obfuscatedPassword += "3";
     } else if (character === "o" || character === "O") {
       obfuscatedPassword += "0";
     } else if (character === "l" || character === "L") {
@@ -14,9 +14,9 @@ function obfuscate(password) {
     } else {
       obfuscatedPassword += character;
     }
-  } 
+  }
 
   return obfuscatedPassword;
-} 
+}
 
 console.log(obfuscate("AabcdeEfghijklLmnoOpqrstuvwxyz"));
