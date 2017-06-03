@@ -1,5 +1,5 @@
 function reverseString(str) {
-  var temp = '';
+  var temp = "";
   var i = str.length;
 
   while (i > 0) {

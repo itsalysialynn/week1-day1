@@ -1,4 +1,10 @@
-var conceptList = ["gists", "types", "operators", "iteration", "problem solving"];
+var conceptList = [
+  "gists",
+  "types",
+  "operators",
+  "iteration",
+  "problem solving"
+];
 
 function joinList(list) {
   var empty = "";
